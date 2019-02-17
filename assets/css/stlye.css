@@ -1,0 +1,61 @@
+*{
+    /* border: 1px solid yellow;  */
+    /* color: white;*/
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background: url(../images/got_map-0-1280-0-1024-760x570.jpg); /*//https://filmschoolrejects.com/game-thrones-title-sequences-vital/ */
+    width: 100%;
+    max-height: 100%;
+    background-size:100% 100%;
+    background-repeat: no-repeat
+}
+
+#header-image{
+    height: auto;
+    margin-top: .5rem;
+}
+#pic{
+   padding: 1rem;
+    height: 20rem;
+}
+#vertical-filler{
+    height:2rem;
+}
+
+.guess-holder{
+    width: 3rem;
+    margin-right: 3px;
+    border-bottom: 3px solid red;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+}
+.game-text{
+    color: white;
+    font-weight: 700;
+    font-size: 1.25em;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+#win-lose-msg{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+#hintSpan{
+    margin-bottom: 1rem
+}

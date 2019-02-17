@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+<!--https://www.youtube.com/watch?v=f5BbzXgvi1o   32 mins in-->
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/stlye.css">
+    <script src="assets/javascript/game.js"></script>
+    <title>GOT Characters</title>
+</head>
+<body onload="startGame()">
+    <div class="container-fluid">
+        <div class="row" id="header-row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 header"><img id="header-image" class="img-fluid max-width: 100%;" src="assets/images/header-red.svg" alt=""></div> <!--Image from https://www.font-generator.com/fonts/GameofThrones/-->
+            <div class="col-lg-2"></div>
+        </div> <!--.row -->
+        <div class="row" id="vertical-filler"></div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4" id="face-container"><img id="pic" class="img-fluid max-width: 100%;" src="assets/images/head2.png" alt=""></div>
+            <div class="col-lg-4"></div>
+        </div> <!--.row -->
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4" id="game-container" class="container">
+                <div class="game-text">
+                  <span>Press any key to begin guessing the character's name.</span>
+                  <br>
+                  <span id="hintSpan"></span>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4" id="game-container" class="container">
+                <div id="guess-container-div"></div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4" id="game-container" class="container">
+                <div class="game-text"><span>Incorrect Tries Remaining:&nbsp;<span id="incorrect-tries">6</span></span></div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4" id="game-container" class="container">
+                <div class="game-text"><span>Incorrect Characters:&nbsp;<span id="incorrect-characters"></span></div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4" id="game-container" class="container">
+                <div class="game-text"><span id="win-lose-msg"></span></div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+            
+        
+     
+    </div><!--.container-fluid-->
+
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
